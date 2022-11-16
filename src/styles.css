@@ -17,7 +17,16 @@
   --ion-background-color: linear-gradient(180deg, #000000 0%, #6b0303 100%);
 
   /* barra inferior */
-  --ion-tab-bar-background: #eb030b;
+  --ion-tab-bar-background: #ffffff;
   --ion-tab-bar-color: #000000;
-  --ion-tab-bar-color-selected: #ffffff;
+  --ion-tab-bar-color-selected: #6b0303;
+
+  --ion-text-color: white;
+  --ion-text-color-rgb: 255, 255, 255;
+}
+
+.conteudo {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
 }
