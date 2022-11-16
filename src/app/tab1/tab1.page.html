@@ -13,7 +13,7 @@
     />
     <p>Bem vindo Universitário! Aqui começa sua jornada!</p>
 
-    <ion-card>
+    <ion-card [routerLink]="['/tabs/tab2']">
       <ion-item>
         <ion-thumbnail slot="start">
           <img src="https://i.imgur.com/BE4XliG.png" />
@@ -21,12 +21,20 @@
         <ion-label>Acesso ao Fórum de dúvidas</ion-label>
       </ion-item>
     </ion-card>
-    <ion-card>
+    <ion-card [routerLink]="['/tabs/tab2']">
       <ion-item>
         <ion-thumbnail slot="start">
-          <img src="https://i.imgur.com/BE4XliG.png" />
+          <img src="https://i.imgur.com/SPlJZYz.png" />
         </ion-thumbnail>
-        <ion-label>Acesso ao Fórum de dúvidas</ion-label>
+        <ion-label>Cursos Online</ion-label>
+      </ion-item>
+    </ion-card>
+    <ion-card [routerLink]="['/tabs/tab3']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://i.imgur.com/sNtfs3D.png" />
+        </ion-thumbnail>
+        <ion-label>Fale Conosco</ion-label>
       </ion-item>
     </ion-card>
   </div>
