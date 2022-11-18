@@ -4,4 +4,15 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <div class="conteudo animate__animated animate__fadeInLeft">
+    <ion-card [routerLink]="['/tabs/tab1']">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img src="https://i.imgur.com/5y5fzog.png" />
+        </ion-thumbnail>
+        <ion-label>Voltar</ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+</ion-content>
